@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "*** starting dbus-mqtt-openwb ***"
+exec 2>&1
+exec /data/etc/dbus-mqtt-openwb/dbus-mqtt-openwb.py
